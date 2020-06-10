@@ -81,3 +81,8 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+assets - Shortcut.lnk
+mipmap-hdpi - Shortcut.lnk
+MyReferenceBookIcon.png
+MyReferenceBookIcon.psd
+release - Shortcut.lnk
