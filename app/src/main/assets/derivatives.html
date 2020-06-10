@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+  <head>
+    <link rel="stylesheet" href="file:///android_asset/katex/katex.min.css">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="file:///android_asset/katex/katex.min.js"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="file:///android_asset/katex/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+<table border="0">
+  <tr>
+	$$\left(\frac{u}{v}\right)'= \frac{u'v - u v'}{v^2}$$
+  </tr>
+  <tr>
+    <th>$$\left(a^x\right)'=a^x \ln a$$ </th>
+    <th>$$\left(\log_a x\right)'=\frac{1}{x \ln a}$$</th>
+  </tr>
+  <tr>
+    <th>$$\left(\sin x\right)'=\cos x$$ </th>
+    <th>$$\left(\cos x\right)'=- \sin x$$</th>
+  </tr>
+  <tr>
+    <th>$$\left(\tg x\right)'=\frac{1}{\cos^2 x}$$ </th>
+    <th>$$\left(\ctg x\right)'=-\frac{1}{\sin^2 x}$$</th>
+  </tr>
+  <tr>
+    <th>$$\left(\arcsin x\right)'=\frac{1}{\sqrt{1-x^2}}$$ </th>
+    <th>$$\left(\arccos x\right)'=-\frac{1}{\sqrt{1-x^2}}$$</th>
+  </tr>
+  <tr>
+    <th>$$\left(\arctg x\right)'=\frac{1}{1+x^2}$$ </th>
+    <th>$$\left(\arcctg x\right)'=-\frac{1}{1+x^2}$$</th>
+  </tr>
+  <tr>
+    <th>$$\left(\sh x\right)'=\ch x$$ </th>
+    <th>$$\left(\ch x\right)'=\sh x$$</th>
+  </tr>
+  <tr>
+    <th>$$\left(\th x\right)'=\frac{1}{\ch^2 x}$$ </th>
+    <th>$$\left(\cth x\right)'=-\frac{1}{\sh^2 x}$$</th>
+  </tr>
+</table>
+</html>

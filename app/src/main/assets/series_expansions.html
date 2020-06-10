@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+  <head>
+    <link rel="stylesheet" href="file:///android_asset/katex/katex.min.css">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="file:///android_asset/katex/katex.min.js"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="file:///android_asset/katex/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+  <tr>
+	$$e^x=1 + \frac{x}{1!} + \frac{x}{2!} + \frac{x}{3!} + \cdots$$
+  </tr>
+  <tr>
+	$$\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots, \quad -1< x \leqslant 1$$
+  </tr>
+  <tr>
+	$$\sin x = x - \frac{x^3}{3!}+\frac{x^5}{5!} - \frac{x^7}{7!} + \cdots$$
+  </tr>
+  <tr>
+	$$\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots$$
+  </tr>
+</html>

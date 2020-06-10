@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+  <head>
+    <link rel="stylesheet" href="file:///android_asset/katex/katex.min.css">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="file:///android_asset/katex/katex.min.js"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="file:///android_asset/katex/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+  <tr>
+	$$\sin 2 \alpha = 2 \sin \alpha \cos \alpha$$
+  </tr>
+  <tr>
+	$$\cos 2 \alpha = \cos^2 \alpha - \sin^2 \alpha$$
+  </tr>
+  <tr>
+	$$\sin(\alpha \pm \beta) = \sin \alpha \cos \beta \pm \cos \alpha \sin \beta$$
+  </tr>
+  <tr>
+	$$\cos(\alpha \pm \beta) = \cos \alpha \cos \beta \mp \sin \alpha \sin \beta$$
+  </tr>
+</html>
